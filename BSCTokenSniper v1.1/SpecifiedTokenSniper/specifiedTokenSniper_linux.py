@@ -63,7 +63,7 @@ if web3.isConnected():
     
 #load json data
 
-configFilePath = os.path.abspath('') + '\config.json'
+configFilePath = os.path.abspath('') + '/config.json'
 
 with open(configFilePath, 'r') as configdata:
     data=configdata.read()
